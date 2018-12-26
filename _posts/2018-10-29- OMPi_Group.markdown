@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      "2018-10-29 OMPi小组会议"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"OMPi分析\""
 date:       2018-10-29 23:59:00
 author:     "Kingtous"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/RTCO_Omp-DAG.jpg"
 catalog: true
 tags:
 - OMPi小组会议

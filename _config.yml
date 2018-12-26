@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     Pewds-Pie
-zhihu_username:     Kingtous
+#weibo_username:     Pewds-Pie
+#zhihu_username:     Kingtous
 github_username:    Kingtous
-twitter_username:   Kingtous
+#twitter_username:   Kingtous
 #facebook_username:  Kingtous
 #linkedin_username:  firstname-lastname-idxxxx
 
