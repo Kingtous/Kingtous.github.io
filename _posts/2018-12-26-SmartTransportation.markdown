@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "2018-12-26 智能交通讨论会"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"确定项目主题\""
 date:       2018-12-26 17:27:00
 author:     "Kingtous"
 header-img: "img/post-bg-2015.jpg"
