@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2018-11-5 OMPi小组会议"
+title:      "2018-11-05 OMPi小组会议"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2018-11-05 23:59:00
 author:     "Kingtous"
