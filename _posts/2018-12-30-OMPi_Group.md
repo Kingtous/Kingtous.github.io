@@ -2,7 +2,7 @@
 layout:     post
 title:      "2018-12-30 OMPi小组会议"
 subtitle:   " \"跟进任务\""
-date:       2018-11-05 23:59:00
+date:       2018-12-30 18:10:00
 author:     "Kingtous"
 header-img: "img/RTCO_Omp-DAG.jpg"
 catalog: true
