@@ -12,13 +12,14 @@ tags:
 
 解决undifined问题
 
+SWEET解决方法：
+>对于函数，直接不执行（simply not to be made）
+>对于变量，先设置成Top值，再根据abstract execution中逐步精确。
+
 ```
 sweet -i=floorplan_ompi_trim.alf,std_hll.alf func=_taskFunc0_  -c extref=off -ae pu aac=insertsort.clt tc=st,op merge =all
-```
 
 
-
-```
 -c后加
 extref=<X> 		Checks if there are any unresolved external references in the
 				program (like calls to external functions or accesses to external
@@ -26,14 +27,8 @@ extref=<X> 		Checks if there are any unresolved external references in the
 				
 on             - (default) Turns on this check
 off            - Turns off this check
-```
 
 
-
-
-
-
-```
 -ae后加
 pu      Process undefined functions, which means that calls to undefined
 		functions will simply not be made. Further, all undefined global
