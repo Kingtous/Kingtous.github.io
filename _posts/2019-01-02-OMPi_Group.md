@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "2019-01-02 OMPi小组会议"
-subtitle:   " \"软件部署\""
+subtitle:   " \"软件部署 & 汇总遇到的问题\""
 date:       2019-01-02 19:07:00
 author:     "Kingtous"
 header-img: "img/RTCO_Omp-DAG.jpg"
@@ -40,3 +40,12 @@ tags:
 
 
 完成后 source /etc/profile
+
+
+
+##待解决的问题 
+
+- 动态内存分配 dyn_alloc 
+- 转alf没问题，但是sweet分析报错，错误是括号匹配
+- 递归
+- 调用递归函数转为调用一个不执行任何语句的函数
