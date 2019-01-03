@@ -22,20 +22,26 @@ tags:
 - ALFbackend安装
   - tar -zxvf ALFbuil.tar.gz 
   - sudo vim /etc/profile
-    -  export PATH=/usr/local/ALFbuild:$PATH
+    - export PATH=/usr/local/ALFbuild:$PATH
     - export PATH=/usr/local/ALFbuild/bin:$PATH
 - alf.zip
-  - unzip alf.zip -d /usr/local/
+  - unzip alf.zip -d /usr/local/alf/
   - sudo vim /etc/profile
     - alias ALFpy="python3 /usr/local/alf/main.py "
 - Slicing_V1.5.zip
-  - unzip Slicing_V1.5.zip -d /usr/local/
+  - unzip Slicing_V1.5.zip -d /usr/local/CleanPy
   - sudo vim /etc/profile
-    - alias CLpy="python3 /usr/local/Slicing_V1.5/main.py "
+    - alias CLpy="python3 /usr/local/CleanPy/main.py "
 - SWEET-8013.zip
-  - unzip SWEET-8013.zip -d /usr/local/
+
+  - sudo apt install doxygen build-essential cmake
+  - unzip SWEET-8013.zip -d /usr/local/sweet
+  - cd /usr/local/sweet/trunk/build/cmakedir
+  - rm -rf *
+  - cmake ../.. -G "Unix Makefiles"
+  - make
   - sudo vim /etc/profile
-    -  export PATH=/usr/local/SWEET-8013/trunk/build/cmakedir/src:$PATH
+    -  export PATH=/usr/local/sweet/trunk/build/cmakedir/src:$PATH
 
 
 
