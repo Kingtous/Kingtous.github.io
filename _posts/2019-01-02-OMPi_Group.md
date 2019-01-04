@@ -8,6 +8,7 @@ header-img: "img/RTCO_Omp-DAG.jpg"
 catalog: true
 tags:
 - OMPi小组会议
+typora-root-url: ../../Kingtous.github.io-master
 ---
 
 ## 软件安装
