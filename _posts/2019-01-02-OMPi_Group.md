@@ -12,6 +12,8 @@ tags:
 
 ## 软件安装
 
+> >
+
 - python3
   - sudo apt install python3
 - ompi-2.0.0_edited.zip
@@ -43,7 +45,7 @@ tags:
   - sudo vim /etc/profile
     -  export PATH=/usr/local/sweet/trunk/build/cmakedir/src:$PATH
 
-
+> >
 
 完成后 source /etc/profile
 
