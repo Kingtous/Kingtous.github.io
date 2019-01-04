@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2019-01-04 OMPi任务分配"
+title:      "2019-01-04 OMPi项目任务梳理"
 subtitle:   " \"任务分配\""
 date:       2019-01-04 11:13:20
 author:     "Kingtous"
