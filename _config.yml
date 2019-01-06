@@ -59,10 +59,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Kingtous
+#disqus_username: Kingtous
 
 # Netease settings
-netease_comment: true
+#netease_comment: true
 
 
 
