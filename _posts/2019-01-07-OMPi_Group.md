@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "2019-01-06 OMPi会议"
+title:      "2019-01-07 OMPi会议"
 subtitle:   " \"ALF Call Problem\""
-date:       2019-01-06 13:23:20
+date:       2019-01-07 16:23:20
 author:     "Kingtous"
 header-img: "img/RTCO_Omp-DAG.jpg"
 catalog: true
