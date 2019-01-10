@@ -12,7 +12,7 @@ catalog: true
 
 - Christmas or Thansgiving or Halloween
   - decorating house
-    - activities 
+    - activities that family beening together
   - socks
     - a symbol to show love to the one you love
 
@@ -20,12 +20,13 @@ catalog: true
 
 ## Learned American Culture during this semester
 
-- Thanksgiving
-- 
-
-
-
-
+- Dining Culture
+  - use chopstick and knife
+- Logic 
+  - Linear direct
+- Risk-taker
+  - willing to take adventure
+- Be Independent
 
 ## Chinese Wedding And English Wedding
 
