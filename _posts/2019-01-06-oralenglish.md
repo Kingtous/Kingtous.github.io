@@ -93,6 +93,9 @@ catalog: true
 - Date
   - The Spring Festival  the Lunar New Year's Day
   - Maybe Christmas  is the day in memory of Jesus other than New Year, 1st January may be more suitable to be called New Year
+- Action
+  - China：FireCrackers，Lion Dance in our hometown or our home
+  - Western:  Go out for party ,waiting the clock ringing, sing a beautiful song together 
 
 ## Lessons you're learned from being in this class
 
