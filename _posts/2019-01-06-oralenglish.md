@@ -5,11 +5,12 @@ subtitle: Oral English Test
 author: Kingtous
 date: 2019-01-06 20:37:39 +0800
 tag: OralEnglish
+catalog: true
 ---
 
 ## American Holiday 
 
-- Christmas or Thansgiving...
+- Christmas or Thansgiving or Halloween
   - decorating house
     - activities 
   - socks
@@ -19,6 +20,7 @@ tag: OralEnglish
 
 ## Learned American Culture during this semester
 
+- Thanksgiving
 - 
 
 
@@ -83,12 +85,12 @@ tag: OralEnglish
   - 《追梦赤子心》--- GALA
 
 
-## Compare Christmas and Chinese New Year
+## Compare the way of celebrating New Year between  western and eastern
 
 - Similar
-  - both are the time we celebrate a new year 
+  - Hold a lively atmosphere and wish a better year.
 - Date
-  - The Spring Festival   the Lunar New Year's Day
+  - The Spring Festival  the Lunar New Year's Day
   - Maybe Christmas  is the day in memory of Jesus other than New Year, 1st January may be more suitable to be called New Year
 
 ## Lessons you're learned from being in this class
@@ -97,6 +99,7 @@ tag: OralEnglish
   - Emotion and how to show our emotion
   - Personality Type
   - Brain Breaks
+  - Show Thankfulness to others
 
 - Future:
   - Wedding
@@ -106,5 +109,4 @@ tag: OralEnglish
 
 - Open Our Sights:
   - Helloween traditions and Popular Halloween symbols
-  - Show Thankfulness to others
   - American Culture and Cultural Difference
