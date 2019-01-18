@@ -1,3 +1,4 @@
-git add *
-git commit -m 'post'
-git push master
+cd /home/blog/Kingtous.github.io-master
+/usr/bin/git add *
+/usr/bin/git commit -m 'post'
+/usr/bin/git push master
