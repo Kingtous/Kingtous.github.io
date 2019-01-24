@@ -107,8 +107,21 @@ tags:
       - ```bash
         >> update user set host='%' where user='cloud';
         >> flush privileges #刷新系统权限表
-        ##效果
+        #效果
         mysql> update user set host='%' where user='cloud';
         Query OK, 0 rows affected (0.00 sec)
         Rows matched: 1  Changed: 0  Warnings: 0
+        #用户配置表
+        mysql> select host,user from user;
+        +-----------+------------------+
+        | host      | user             |
+        +-----------+------------------+
+        | %         | cloud            |
+        | %         | root             |
+        | localhost | debian-sys-maint |
+        | localhost | mysql.session    |
+        | localhost | mysql.sys        |
+        | localhost | phpmyadmin       |
+        +-----------+------------------+
+        6 rows in set (0.00 sec)
         ```
