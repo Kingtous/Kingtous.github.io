@@ -23,3 +23,65 @@ tags:
   - typedef long ELM;
 - Sparselu 警告报错涉及float操作语句
 
+
+
+
+
+## alignment
+
+修改的地方：
+
+> seq = (char *) realloc(seq, ((*len) + MAXLINE + 2) * sizeof(char));
+
+![image-20190217152150776](/Users/kingtous/Library/Application Support/typora-user-images/image-20190217152150776.png)
+
+> get_seq函数（见 assert语句）
+
+![image-20190217152324567](/Users/kingtous/Library/Application Support/typora-user-images/image-20190217152324567.png)
+
+>
+
+
+
+
+
+原本取值就应当是无穷的变量：
+
+> names        = (char   **) malloc((nseqs + 1) * sizeof(char *));
+
+nseqs取决于传入文件:
+
+![image-20190217105810071](/Users/kingtous/Library/Application Support/typora-user-images/image-20190217105810071.png)
+
+![image-20190217105859390](/Users/kingtous/Library/Application Support/typora-user-images/image-20190217105859390.png)
+
+
+
+>strlcpy函数
+
+s-src也是无法确定的
+
+![image-20190217110112620](/Users/kingtous/Library/Application Support/typora-user-images/image-20190217110112620.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
