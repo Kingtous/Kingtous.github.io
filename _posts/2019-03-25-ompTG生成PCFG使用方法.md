@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "2019-03-25 ompTG生成PCFG使用方法"
+title:      "ompTG生成PCFG使用方法"
 subtitle:   "生成PCFG"
-date:       2019-01-04 18:00:20
+date:       2019-03-25 17:23:20
 author:     "Kingtous"
 header-img: "img/RTCO_Omp-DAG.jpg"
 catalog: true
