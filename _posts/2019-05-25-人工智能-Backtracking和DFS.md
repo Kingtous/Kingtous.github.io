@@ -65,11 +65,11 @@ AC-3用于检测冲突，然后删除有冲突的值(有点像剪枝)，加快ba
 
 在AC3算法中，我们得到边有
 
-$\{A\rightarrow B,B \rightarrow A,B \rightarrow C, C \rightarrow B\}$
+`$\{A\rightarrow B,B \rightarrow A,B \rightarrow C, C \rightarrow B\}$`
 
 步骤如下：
 
-- 1.选取一个约束(例如$\{A\rightarrow B\}$)
+- 1.选取一个约束(例如`$\{A\rightarrow B\}$`)
 - 2.查看A取值域中的任意值，B是否有对应的值
 - 3.是则值域不变,回到第1步，否则执行第四步
 - 4.删除A中有冲突的值，再检查A的相邻结点是否与A满足弧约束，此处即$\{B\rightarrow A\}$
@@ -115,7 +115,7 @@ function RemoveConsistentValues(X, Y, csp) returns true if a value was removed
 
 - 路径相容
 
-> 两个变量的集合$\{X_i,X_j\}$对于第三个变量$X_m$是相容的，也就是说，对$\{X_i,X_j\}$的每一个相容赋值，$X_m$都有合适的取值同时使得$\{X_i,X_m\}$和$\{X_m,X_j\}$是相容的。
+> 两个变量的集合`$\{X_i,X_j\}$`对于第三个变量`$X_m$`是相容的，也就是说，对`$\{X_i,X_j\}$`的每一个相容赋值，`$X_m$`都有合适的取值同时使得`$\{X_i,X_m\}$`和`$\{X_m,X_j\}$`是相容的。
 
 - K相容
 
