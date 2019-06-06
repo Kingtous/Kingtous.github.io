@@ -28,7 +28,7 @@ $Entropy=-\sum_{i=1}^{K}p_klog_2{p_k}$
 
 > Wind(9+,5-)   ->   Weak(6+,2-)
 
-> ​	|
+> ​	\|
 
 > ​	V
 
@@ -41,6 +41,14 @@ Weak,Strong同理可得
 $$Gain(S,wind)=H(S)-\frac{8}{14}H(S_{weak})-\frac{6}{14}H(S_{weak})=0.049$$
 
 PS:若要作为测试结点，Gain需要最大
+
+
+
+### 互信息
+
+$$I(X,Y)=KL(p(X,Y)\|\|p(X)p(Y))=\sum_{x∈X,y∈Y}p(x,y)log\frac{p(x,y)}{p(x)p(y)}$$
+
+
 
 ## 平均分支因子(Average Branching Factor)
 
