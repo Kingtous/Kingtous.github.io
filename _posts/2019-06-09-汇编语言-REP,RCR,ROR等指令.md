@@ -55,20 +55,17 @@ tags:
 - Repeats execution of string instructions while CX != 0. After each string operation, CX is decremented and the Zero Flag is tested. The combination of a repeat prefix and a segment override on CPU's before the 386 may result in errors if an interrupt occurs before CX=0. The following code shows code that is susceptible to this and how to avoid it:
 
 - ```
-           again:  rep movs  byte ptr ES:[DI],ES:[SI]   ; vulnerable instr.
-                       jcxz  next              ; continue if REP successful
-                       loop  again             ; interrupt goofed count
-           next:
-  ```
-
-
-
+         again:  rep movs  byte ptr ES:[DI],ES:[SI]   ; vulnerable instr.
+                     jcxz  next              ; continue if REP successful
+                     loop  again             ; interrupt goofed count
+         next:
+     ```
 ------
 
 *REPE/REPZ* - Repeat Equal / Repeat Zero
 
 - **Usage:** REPE
-  ​           REPZ
+     ​    REPZ
 
 - **Modifies Flags:** None
 
@@ -81,7 +78,7 @@ tags:
 *REPNE/REPNZ* - Repeat Not Equal / Repeat Not Zero
 
 - **Usage:** REPNE
-  ​           REPNZ
+     ​    REPNZ
 
 - **Modifies Flags:** None
 
@@ -94,8 +91,8 @@ tags:
 *RET/RETF* - Return From Procedure
 
 - **Usage:** RET nBytes
-  ​           RETF nBytes
-  ​           RETN nBytes
+     ​    RETF nBytes
+     ​    RETN nBytes
 
 - **Modifies Flags:** None
 
@@ -104,8 +101,6 @@ tags:
 
 
 ------
-
-
 
 
 
