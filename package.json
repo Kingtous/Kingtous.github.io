@@ -26,6 +26,7 @@
         "cafe": "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
     },
     "dependencies": {
-        "gitment": "0.0.3"
+        "gitment": "0.0.3",
+        "sitemap-nodejs": "^1.3.1"
     }
 }
