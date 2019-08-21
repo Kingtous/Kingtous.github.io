@@ -67,6 +67,31 @@ WantedBy=multi-user.target
 
   由于Linux下的浏览器默认未开启硬件加速，软解导致CPU占用高，安装`chromium-vaapi`即可
 
+### 更换键盘设置
+
+1. 通过aur安装 hid_apple
+
+2. 关闭iso键盘配置(否则～键会变成书名号和大于小于号)
+
+   ```shell
+   sudo vim /etc/modprobe.d/hid_apple_pclayout.conf
+   options hid_apple fnmode=2
+   options hid_apple swap_fn_leftctrl=1
+   options hid_apple swap_opt_cmd=1
+   options hid_apple rightalt_as_rightctrl=1
+   options hid_apple ejectcd_as_delete=1
+   options hid_apple iso_layout=0 ##这行默认配置没有
+   ```
+
+3. 将配置conf加入内核
+
+   ```shell
+   sudo modprobe hid_apple
+   sudo mkinitcpio -p linux(根据当前系统提供的内容改，可以按TAB键补全)
+   ```
+
+4. 重启即可
+
 ### chromium设置代理
 
 通过shell进行设置(以socks5为例，开放端口1080)
