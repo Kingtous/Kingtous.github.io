@@ -42,10 +42,18 @@ Ubuntu使用`system-networkd`和`systemd-resolved`进行网络配置。理论上
 
 Manjaro使用`Network Manager`进行网络配置
 
-1. 在OpenVPN的配置文件(.ovpn)尾部加入
+1. AUR安装`openvpn-update-resolve-conf`
+
+   ```shell
+   yaourt openvpn-update-resolve-conf
+   ```
+
+2. 在OpenVPN的配置文件(.ovpn)尾部加入
 
 ```shell
-dhcp-option DOMAIN_ROUTE .
+script-security 2
+up /etc/openvpn/update-resolv-conf
+down /etc/openvpn/update-resolv-conf
 ```
 
-2. 重新连接即可
+3. 重新连接即可
