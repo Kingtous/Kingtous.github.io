@@ -102,10 +102,16 @@
         {% endif %}
           <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
           <span class="subheading">{{ page.description }}</span>
+          <br>
+          <span id="busuanzi_container_page_pv">
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+          </span>
         </div>
       </div>
     </div>
   </div>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
 </header>
 {% endif %}
 <canvas id="Mycanvas" style="position:fixed;top:0;left:0;z-index:-1"></canvas>
