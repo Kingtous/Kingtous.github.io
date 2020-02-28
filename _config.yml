@@ -98,15 +98,14 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-
-
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "Omp-DAG控制流图转换工具",
-        href: "http://123.206.34.50/upload_test/"
+      title: "ompTG Online",
+      href: "http://omptg.kingtous.cn/"
+    },
+    {
+      title: "ompTG Online使用文档",
+      href: "http://omptg.doc.kingtous.cn/"
     }
 ]
