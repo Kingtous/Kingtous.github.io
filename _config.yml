@@ -100,16 +100,15 @@ page-mathjax: false
 
 # Friends
 friends: [
-
-    {
-      title: "ompTG Online使用文档",
-      href: "http://omptg.doc.kingtous.cn/"
-    }
+	{
+      title: "Bonky DaLao's Blog",
+      href: "http://bonky.top/"
+   	}
 ]
 
 links: [
-      {
-      title: "Bonky DaLao's Blog",
-      href: "http://bonky.top/"
+	{
+      title: "ompTG Online使用文档",
+      href: "http://omptg.doc.kingtous.cn/"
     }
 ]
