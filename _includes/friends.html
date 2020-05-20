@@ -1,9 +1,17 @@
 {% if site.friends %}
 <hr>
-<h5>FRIENDS</h5>
+<h5>伙伴链接</h5>
 <ul class="list-inline">
   {% for friend in site.friends %}
   <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+  {% endfor %}
+</ul>
+
+<hr>
+<h5>我的Links</h5>
+<ul class="list-inline">
+  {% for link in site.links %}
+  <li><a href="{{link.href}}">{{link.title}}</a></li>
   {% endfor %}
 </ul>
 {% endif %}
