@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jekyll-admin', group: :jekyll_plugins
+
+gem "jekyll", "~> 4.0"
 gem 'jekyll-paginate'
-gem "rack", ">= 1.6.12"
+gem "rack", ">= 2.1.4"
+gem "kramdown", ">= 2.3.0"
