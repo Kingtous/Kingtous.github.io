@@ -65,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-paginate
+  kramdown (>= 2.3.0)
   rack (>= 2.1.4)
 
 BUNDLED WITH
