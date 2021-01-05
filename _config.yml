@@ -107,6 +107,10 @@ friends: [
 ]
 
 links: [
+{
+	title: "我的个人博客[Flutter Version]",
+	href : "http://blog.kingtous.cn"
+},
 	{
       title: "ompTG Online使用文档",
       href: "http://omptg.doc.kingtous.cn/"
